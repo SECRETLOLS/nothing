@@ -8,27 +8,19 @@
 
 ---
 
-<div>
-
 > [!WARNING]
 > **ВНИМАНИЕ / WARNING**
 > 
 > * **RU:** Расширение создано исключительно для защиты конфиденциальности, управления цифровыми отпечатками и анализа сетевого трафика. Используйте только официальные сборки из этого репозитория.
 > * **EN:** The extension is intended exclusively for privacy protection, digital fingerprint management, and network traffic analysis. Make sure to use official builds from this repository.
 
-</div>
-
 ---
-
-<div>
 
 > [!IMPORTANT]
 > **ПОЛНЫЙ КОНТРОЛЬ И НАСТРОЙКА / FULL CONTROL & CUSTOMIZATION**
 > 
 > * **RU:** Вы сами решаете, как именно работает защита: расширение можно полностью отключить в один клик, настроить списки исключений для нужных сайтов или точечно управлять подменой системы вроде Windows, macOS и Linux, а также таймзонами и WebRTC.
 > * **EN:** You decide how the protection works: the extension can be completely disabled with a single click, exceptions can be set for specific websites, and system spoofing like Windows, macOS, Linux, timezones, and WebRTC can be managed individually.
-
-</div>
 
 ---
 
