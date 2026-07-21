@@ -8,6 +8,14 @@
 
 ---
 
+> [!WARNING]
+> **ВНИМАНИЕ / WARNING**
+> 
+> * **RU:** Расширение предназначено исключительно для защиты конфиденциальности, управления цифровыми отпечатками и анализа сетевого трафика. Убедитесь, что вы используете официальную сборку из этого репозитория.
+> * **EN:** The extension is intended exclusively for privacy protection, digital fingerprint management, and network traffic analysis. Make sure you are using the official build from this repository.
+
+---
+
 ## 🇷🇺 О ПРОЕКТЕ
 
 **Nothing** — профессиональное расширение для браузера, разработанное для полного контроля над цифровым отпечатком, глубокого анализа сетевого трафика и защиты конфиденциальности в реальном времени.
