@@ -2,8 +2,8 @@
 
   <!-- Language Switcher -->
   <p>
-    <a href="#"><img src="https://img.shields.io/badge/🇷🇺_Русский-Active-2ea44f?style=flat-square" alt="Russian"></a>
-    <a href="#"><img src="https://img.shields.io/badge/🇬🇧_English-Available-6e7681?style=flat-square" alt="English"></a>
+    <img src="https://img.shields.io/badge/🇷🇺_Русский-Active-2ea44f?style=flat-square" alt="Russian">
+    <img src="https://img.shields.io/badge/🇬🇧_English-Available-6e7681?style=flat-square" alt="English">
   </p>
 
   <!-- Hero Badges -->
