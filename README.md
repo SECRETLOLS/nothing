@@ -1,4 +1,6 @@
- <!-- Animated Wave Header - Matching Extension Blue/Purple Gradient -->
+readme = '''<div align="center">
+
+  <!-- Animated Wave Header - Matching Extension Blue/Purple Gradient -->
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0138b7,50:3d53d7,100:5372e0&height=180&section=header&text=🛡️%20NOTHING&fontSize=60&fontColor=b8ceff&animation=fadeIn&fontAlignY=35&desc=Advanced%20Browser%20Privacy%20%26%20Digital%20Fingerprint%20Management&descSize=18&descAlignY=60&descColor=a1b9f6" alt="Header">
 
   <!-- Language Switcher -->
@@ -169,3 +171,6 @@
 
 with open('/mnt/agents/output/README.md', 'w', encoding='utf-8') as f:
     f.write(readme)
+
+print("README.md saved successfully!")
+print(f"Total characters: {len(readme)}")
