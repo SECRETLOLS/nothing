@@ -4,7 +4,7 @@
   <!-- Language Switcher - Rounded -->
   <p align="center">
     <img src="https://img.shields.io/badge/🇷🇺_Русский-Active-2ea44f?style=plastic&logo=googletranslate&logoColor=white" alt="Russian">
-    <img src="https://img.shields.io/badge/🇬🇧_English-Active-6e7681?style=plastic&logo=googletranslate&logoColor=white" alt="English">
+    <img src="https://img.shields.io/badge/🇬🇧_English-Active-2ea44f?style=plastic&logo=googletranslate&logoColor=white" alt="English">
   </p>
 
   <!-- Browser Badges - Plastic Rounded -->
