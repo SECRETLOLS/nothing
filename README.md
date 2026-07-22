@@ -1,7 +1,7 @@
 readme = '''<div align="center">
 
-  <!-- Animated Wave Header -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:667eea,100:764ba2&height=140&section=header&text=NOTHING&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=35" alt="Header">
+  <!-- Animated Wave Header - Matching Extension Colors (Dark Blue/Purple) -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a3e,50:2d2d5a,100:1a1a3e&height=160&section=header&text=NOTHING&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=38" alt="Header">
 
   <!-- Language Switcher -->
   <p>
@@ -14,19 +14,18 @@ readme = '''<div align="center">
     <img src="https://img.shields.io/badge/Chrome-Extension-4285F4?logo=googlechrome&logoColor=white&style=plastic" alt="Chrome">
     <img src="https://img.shields.io/badge/Edge-Extension-0078D7?logo=microsoftedge&logoColor=white&style=plastic" alt="Edge">
     <img src="https://img.shields.io/badge/Brave-Extension-FB542B?logo=brave&logoColor=white&style=plastic" alt="Brave">
-    <img src="https://img.shields.io/badge/License-MIT-22c55e?style=plastic" alt="MIT">
-    <img src="https://img.shields.io/badge/Version-1.0.0-blue?style=plastic" alt="Version">
+    <img src="https://img.shields.io/badge/Version-1.0.0-667eea?style=plastic" alt="Version">
   </p>
 
   <!-- Description -->
   <p><b>Advanced Browser Privacy & Digital Fingerprint Management</b></p>
   <p><i>Продвинутая защита приватности и управление цифровым отпечатком браузера</i></p>
 
-  <!-- Quick Stats -->
+  <!-- Quick Stats - Rounded -->
   <p>
-    <img src="https://img.shields.io/badge/⭐_Stars-0-ffd700?style=flat-square" alt="Stars">
-    <img src="https://img.shields.io/badge/🍴_Forks-0-ff6b6b?style=flat-square" alt="Forks">
-    <img src="https://img.shields.io/badge/📥_Downloads-0-4ecdc4?style=flat-square" alt="Downloads">
+    <img src="https://img.shields.io/badge/⭐_Stars-0-ffd700?style=plastic" alt="Stars">
+    <img src="https://img.shields.io/badge/🍴_Forks-0-ff6b6b?style=plastic" alt="Forks">
+    <img src="https://img.shields.io/badge/📥_Downloads-0-4ecdc4?style=plastic" alt="Downloads">
   </p>
 
   <!-- Quick Navigation -->
@@ -35,7 +34,7 @@ readme = '''<div align="center">
     <a href="#-installation--установка">🚀 Install</a> •
     <a href="#-project-structure--структура-проекта">📁 Structure</a> •
     <a href="#-settings--настройки">⚙️ Settings</a> •
-    <a href="#-license--лицензия">🤝 License</a>
+    <a href="#-security-notes--примечания-по-безопасности">🛡️ Security</a>
   </p>
 
 </div>
@@ -156,19 +155,10 @@ readme = '''<div align="center">
 
 ---
 
-## 🤝 License / Лицензия
-
-Distributed under the **MIT License**.  
-Распространяется под лицензией **MIT**.
-
-See [LICENSE](LICENSE) for full details. / Подробности в файле [LICENSE](LICENSE).
-
----
-
 <div align="center">
 
-  <!-- Animated Wave Footer -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:764ba2,100:667eea&height=100&section=footer" alt="Footer">
+  <!-- Animated Wave Footer - Matching Extension Colors -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2d2d5a,50:1a1a3e,100:2d2d5a&height=120&section=footer" alt="Footer">
 
   <p><b>Built with privacy in mind. / Создано с заботой о приватности.</b></p>
   <p><b>Made for those who value control. / Для тех, кто ценит контроль.</b></p>
