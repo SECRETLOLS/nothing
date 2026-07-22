@@ -103,10 +103,6 @@
 
 ---
 
-## 🖼️ Interface Preview / Скриншоты интерфейса
-
-<details>
-<summary><b>📸 Click to expand / Нажмите, чтобы развернуть</b></summary>
 
 <br>
 
