@@ -30,7 +30,6 @@
 <p align="center">
   <a href="#-features--возможности">✨ Features</a> •
   <a href="#-installation--установка">🚀 Install</a> •
-  <a href="#-project-structure--структура-проекта">📁 Structure</a> •
   <a href="#-timezone-showcase--часовые-пояса">🌍 Timezones</a> •
   <a href="#-tech-stack--стек-технологий">⚙️ Tech</a>
 </p>
@@ -89,90 +88,94 @@
 
 ---
 
-## 📁 Project Structure / Структура проекта
-
-```text
-📁 nothing/
-├── 📁 assets/            # UI styles / Стили интерфейса
-├── 📁 icons/             # Extension icons / Иконки расширения
-├── 📄 background.js      # Background service worker / Фоновый скрипт
-├── 📄 content-loader.js  # Script injection loader / Загрузчик скриптов
-├── 📄 inject.js          # Injected content script / Инжектируемый скрипт
-├── 📄 manifest.json      # Extension manifest / Манифест расширения
-├── 📄 popup.html         # Popup UI markup / Интерфейс меню
-└── 📄 popup.js           # Popup logic / Логика меню
-```
-
----
-
-## 🌍 Timezone Showcase / Часовые пояса
+## 🌍 Timezone Showcase
 
 <div align="center">
 
-### 🌐 Global Coverage / Глобальное покрытие
-
 <p align="center">
-  <img src="https://img.shields.io/badge/🌍_Europe-40%2B%20cities-3d53d7?style=for-the-badge&logoColor=white" alt="Europe">
-  <img src="https://img.shields.io/badge/🌍_Africa-30%2B%20cities-4ecdc4?style=for-the-badge&logoColor=white" alt="Africa">
-  <img src="https://img.shields.io/badge/🌍_Asia-50%2B%20cities-ff6b6b?style=for-the-badge&logoColor=white" alt="Asia">
-  <img src="https://img.shields.io/badge/🌍_Americas-45%2B%20cities-2ea44f?style=for-the-badge&logoColor=white" alt="Americas">
-  <img src="https://img.shields.io/badge/🌍_Oceania-15%2B%20cities-ffd700?style=for-the-badge&logoColor=white" alt="Oceania">
+  <img src="https://img.shields.io/badge/🌍_Europe-40%2B%20cities-3d53d7?style=plastic&logoColor=white" alt="Europe">
+  <img src="https://img.shields.io/badge/🌍_Africa-30%2B%20cities-4ecdc4?style=plastic&logoColor=white" alt="Africa">
+  <img src="https://img.shields.io/badge/🌍_Asia-50%2B%20cities-ff6b6b?style=plastic&logoColor=white" alt="Asia">
+  <img src="https://img.shields.io/badge/🌍_Americas-45%2B%20cities-2ea44f?style=plastic&logoColor=white" alt="Americas">
+  <img src="https://img.shields.io/badge/🌍_Oceania-15%2B%20cities-ffd700?style=plastic&logoColor=white" alt="Oceania">
 </p>
 
-### ⏰ Featured Timezones / Избранные часовые пояса
+| 🌆 City | 🌍 Region |
+|---------|-----------|
+| Europe/London | 🇬🇧 United Kingdom |
+| Europe/Paris | 🇫🇷 France |
+| Europe/Berlin | 🇩🇪 Germany |
+| Europe/Rome | 🇮🇹 Italy |
+| Europe/Moscow | 🇷🇺 Russia |
+| Europe/Istanbul | 🇹🇷 Türkiye |
+| Africa/Cairo | 🇪🇬 Egypt |
+| Africa/Lagos | 🇳🇬 Nigeria |
+| Asia/Tokyo | 🇯🇵 Japan |
+| Asia/Shanghai | 🇨🇳 China |
+| Asia/Dubai | 🇦🇪 UAE |
+| Asia/Mumbai | 🇮🇳 India |
+| America/New_York | 🇺🇸 USA (East) |
+| America/Los_Angeles | 🇺🇸 USA (West) |
+| America/Sao_Paulo | 🇧🇷 Brazil |
+| Australia/Sydney | 🇦🇺 Australia |
+| Pacific/Auckland | 🇳🇿 New Zealand |
+| Asia/Seoul | 🇰🇷 South Korea |
+| Asia/Singapore | 🇸🇬 Singapore |
+| Europe/Madrid | 🇪🇸 Spain |
+| Europe/Amsterdam | 🇳🇱 Netherlands |
+| Europe/Zurich | 🇨🇭 Switzerland |
+| Europe/Stockholm | 🇸🇪 Sweden |
+| Europe/Oslo | 🇳🇴 Norway |
+| Europe/Warsaw | 🇵🇱 Poland |
+| Europe/Prague | 🇨🇿 Czech Republic |
+| Europe/Vienna | 🇦🇹 Austria |
+| Europe/Budapest | 🇭🇺 Hungary |
+| Europe/Athens | 🇬🇷 Greece |
+| Europe/Lisbon | 🇵🇹 Portugal |
+| Europe/Dublin | 🇮🇪 Ireland |
+| Europe/Helsinki | 🇫🇮 Finland |
+| Europe/Copenhagen | 🇩🇰 Denmark |
+| Asia/Bangkok | 🇹🇭 Thailand |
+| Asia/Jakarta | 🇮🇩 Indonesia |
+| Asia/Manila | 🇵🇭 Philippines |
+| Asia/Ho_Chi_Minh | 🇻🇳 Vietnam |
+| America/Toronto | 🇨🇦 Canada |
+| America/Chicago | 🇺🇸 USA (Central) |
+| America/Denver | 🇺🇸 USA (Mountain) |
+| America/Mexico_City | 🇲🇽 Mexico |
+| America/Bogota | 🇨🇴 Colombia |
+| America/Lima | 🇵🇪 Peru |
+| America/Santiago | 🇨🇱 Chile |
+| America/Buenos_Aires | 🇦🇷 Argentina |
+| Africa/Johannesburg | 🇿🇦 South Africa |
+| Africa/Nairobi | 🇰🇪 Kenya |
+| Africa/Casablanca | 🇲🇦 Morocco |
+| Africa/Addis_Ababa | 🇪🇹 Ethiopia |
+| Pacific/Honolulu | 🇺🇸 USA (Hawaii) |
+| Pacific/Fiji | 🇫🇯 Fiji |
+| Atlantic/Reykjavik | 🇮🇸 Iceland |
+| Asia/Tehran | 🇮🇷 Iran |
+| Asia/Riyadh | 🇸🇦 Saudi Arabia |
+| Asia/Karachi | 🇵🇰 Pakistan |
+| Asia/Dhaka | 🇧🇩 Bangladesh |
 
-| 🌆 City / Город | 🌍 Region / Регион | 🕐 UTC Offset |
-|----------------|-------------------|-------------|
-| Europe/London | 🇬🇧 United Kingdom | UTC+0 |
-| Europe/Paris | 🇫🇷 France | UTC+1 |
-| Europe/Berlin | 🇩🇪 Germany | UTC+1 |
-| Europe/Rome | 🇮🇹 Italy | UTC+1 |
-| Europe/Moscow | 🇷🇺 Russia | UTC+3 |
-| Europe/Istanbul | 🇹🇷 Türkiye | UTC+3 |
-| Africa/Cairo | 🇪🇬 Egypt | UTC+2 |
-| Africa/Lagos | 🇳🇬 Nigeria | UTC+1 |
-| Asia/Tokyo | 🇯🇵 Japan | UTC+9 |
-| Asia/Shanghai | 🇨🇳 China | UTC+8 |
-| Asia/Dubai | 🇦🇪 UAE | UTC+4 |
-| Asia/Mumbai | 🇮🇳 India | UTC+5:30 |
-| America/New_York | 🇺🇸 USA (East) | UTC-5 |
-| America/Los_Angeles | 🇺🇸 USA (West) | UTC-8 |
-| America/Sao_Paulo | 🇧🇷 Brazil | UTC-3 |
-| Australia/Sydney | 🇦🇺 Australia | UTC+10 |
-
-> 🔄 **Auto-detect from IP** / **Автоопределение по IP** — Automatically sync your timezone with your real IP location to avoid detection. / Автоматическая синхронизация таймзоны с реальным IP для избежания детекции.
+> 🔄 **Auto-detect from IP** — Automatically sync your timezone with your real IP location to avoid detection.
 
 </div>
 
 ---
 
-## ⚙️ Tech Stack / Стек технологий
+## ⚙️ Tech Stack
 
 <div align="center">
 
 <p align="center">
-  <img src="https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
-  <img src="https://img.shields.io/badge/Chrome%20API-Manifest%20V3-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Chrome API">
-  <img src="https://img.shields.io/badge/WebRTC-API-333333?style=for-the-badge&logo=webrtc&logoColor=white" alt="WebRTC">
+  <img src="https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=plastic&logo=javascript&logoColor=black" alt="JavaScript">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=plastic&logo=html5&logoColor=white" alt="HTML5">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=plastic&logo=css3&logoColor=white" alt="CSS3">
+  <img src="https://img.shields.io/badge/Chrome%20API-Manifest%20V3-4285F4?style=plastic&logo=googlechrome&logoColor=white" alt="Chrome API">
+  <img src="https://img.shields.io/badge/WebRTC-API-333333?style=plastic&logo=webrtc&logoColor=white" alt="WebRTC">
 </p>
-
-</div>
-
----
-
-## 🖼️ UI Preview / Превью интерфейса
-
-<div align="center">
-
-<p align="center">
-  <img src="https://img.shields.io/badge/🎨_Dark%20Theme-Premium%20UI-0138b7?style=for-the-badge" alt="Dark Theme">
-  <img src="https://img.shields.io/badge/📱_Responsive-Mobile%20Ready-3d53d7?style=for-the-badge" alt="Responsive">
-  <img src="https://img.shields.io/badge/⚡_Fast-Zero%20Lag-2ea44f?style=for-the-badge" alt="Fast">
-</p>
-
-> 📸 *Screenshots coming in v0.0.3* / *Скриншоты в v0.0.3*
 
 </div>
 
@@ -191,30 +194,14 @@
 
 ---
 
-## 📈 Roadmap / Дорожная карта
-
-<div align="center">
-
-| 📅 Version | 🎯 Planned Features / Планируемые функции | ✅ Status |
-|-----------|-------------------------------------------|----------|
-| **v0.0.3** | UI overhaul, timezone sync, traffic graphs | 🚧 In Progress |
-| **v0.0.4** | Firefox support, custom profiles export | 📋 Planned |
-| **v0.0.5** | AI-based adaptive protection, stats dashboard | 📋 Planned |
-| **v0.1.0** | Stable release, full documentation | 🎯 Goal |
-
-</div>
-
----
-
 <div align="center">
 
 <!-- Animated Wave Footer - Blue/Purple Gradient -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:5372e0,50:3d53d7,100:0138b7&height=120&section=footer" alt="Footer">
 
-<p><b>Built with privacy in mind. / Создано с заботой о приватности.</b></p>
-<p><b>Made for those who value control. / Для тех, кто ценит контроль.</b></p>
+<p><b>Nothing — stay invisible.</b></p>
 <p>
-  <sub>⭐ Star this repo if Nothing helps you stay private! / Поставьте ⭐, если Nothing помогает вам оставаться приватным!</sub>
+  <sub>⭐ Star this repo if Nothing helps you stay private!</sub>
 </p>
 
-</div>"""
+</div>
