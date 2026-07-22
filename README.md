@@ -1,89 +1,94 @@
 <div align="center">
 
+  <!-- Language Switcher -->
+  <p>
+    <a href="#"><img src="https://img.shields.io/badge/🇷🇺_Русский-Active-2ea44f?style=flat-square" alt="Russian"></a>
+    <a href="#"><img src="https://img.shields.io/badge/🇬🇧_English-Available-6e7681?style=flat-square" alt="English"></a>
+  </p>
+
   <!-- Hero Badges -->
   <p>
-    <img src="https://img.shields.io/badge/Chrome-Extension-4285F4?logo=googlechrome&logoColor=white&style=for-the-badge" alt="Chrome Extension">
-    <img src="https://img.shields.io/badge/Edge-Extension-0078D7?logo=microsoftedge&logoColor=white&style=for-the-badge" alt="Edge Extension">
-    <img src="https://img.shields.io/badge/Brave-Extension-FB542B?logo=brave&logoColor=white&style=for-the-badge" alt="Brave Extension">
-    <img src="https://img.shields.io/badge/License-MIT-22c55e?style=for-the-badge" alt="License: MIT">
+    <img src="https://img.shields.io/badge/Chrome-Extension-4285F4?logo=googlechrome&logoColor=white&style=for-the-badge" alt="Chrome">
+    <img src="https://img.shields.io/badge/Edge-Extension-0078D7?logo=microsoftedge&logoColor=white&style=for-the-badge" alt="Edge">
+    <img src="https://img.shields.io/badge/Brave-Extension-FB542B?logo=brave&logoColor=white&style=for-the-badge" alt="Brave">
+    <img src="https://img.shields.io/badge/License-MIT-22c55e?style=for-the-badge" alt="MIT">
   </p>
 
   <!-- Title -->
   <h1>🛡️ NOTHING</h1>
   <p><b>Advanced Browser Privacy & Digital Fingerprint Management</b></p>
-  <p><i>Take full control of your digital footprint, network traffic, and online identity.</i></p>
+  <p><i>Продвинутая защита приватности и управление цифровым отпечатком браузера</i></p>
 
-  <!-- Quick Links -->
+  <!-- Quick Navigation -->
   <p>
-    <a href="#-features">Features</a> •
-    <a href="#-installation">Installation</a> •
-    <a href="#-project-structure">Structure</a> •
-    <a href="#-settings-reference">Settings</a> •
-    <a href="#-license">License</a>
+    <a href="#-features--возможности">Features</a> •
+    <a href="#-installation--установка">Install</a> •
+    <a href="#-project-structure--структура-проекта">Structure</a> •
+    <a href="#-settings--настройки">Settings</a> •
+    <a href="#-license--лицензия">License</a>
   </p>
 
 </div>
 
 ---
 
-## ⚠️ Disclaimer
+## ⚠️ Disclaimer / Предупреждение
 
 > [!WARNING]
-> This extension is built **exclusively** for privacy protection, digital fingerprint management, and network traffic analysis.  
-> **Always use official builds from this repository.** Third-party builds may compromise your security.
+> **EN:** This extension is built **exclusively** for privacy protection, digital fingerprint management, and network traffic analysis. **Always use official builds from this repository.**
+>
+> **RU:** Расширение создано **исключительно** для защиты конфиденциальности, управления цифровыми отпечатками и анализа сетевого трафика. **Используйте только официальные сборки из этого репозитория.**
 
 ---
 
-## 🔒 Full Control & Customization
+## 🔒 Full Control & Customization / Полный контроль
 
 > [!IMPORTANT]
-> You decide how protection works:
-> - **One-click toggle** to completely disable the extension.
-> - **Per-site exceptions** for domains that need unrestricted access.
-> - **Granular spoofing** of OS (Windows, macOS, Linux), timezone, and WebRTC settings.
+> **EN:** You decide how protection works: **one-click toggle** to disable, **per-site exceptions** for trusted domains, and **granular spoofing** of OS, timezone, and WebRTC.
+>
+> **RU:** Вы сами решаете, как работает защита: **полное отключение в один клик**, **исключения для сайтов** и **точечная подмена** ОС, таймзоны и WebRTC.
 
 ---
 
-## ✨ Features
+## ✨ Features / Возможности
 
-| Feature | Description |
-|---------|-------------|
-| **🎛️ Master Toggle** | Instantly enable or disable the entire extension with a single click. |
-| **📋 Site Exceptions** | Disable protection for specific pages or domains to prevent breakage on trusted sites. |
-| **📊 Traffic Monitor** | Real-time stats on active domains, requests, packet loss, data volume, and blocked trackers — right in the popup. |
-| **🖥️ System Spoofing** | Choose OS profiles (Windows, Linux, macOS) paired with browser signatures to mask your real device. |
-| **🎨 Fingerprint Protection** | Canvas & Audio noise injection, adaptive noise aggression, real-time WebGL spoofing, and anti-fraud/geo-tracker blocking — each with its own toggle. |
-| **🌐 WebRTC Control** | Robust IP-leak prevention with a per-site whitelist (e.g., `meet.google.com`). |
-| **🕐 Timezone Spoofing** | Spoof your timezone to match any location, or disable it entirely. |
-| **⚡ Lightweight** | Zero bloat architecture designed for stability and minimal browser overhead. |
-
----
-
-## 🚀 Installation
-
-Get up and running in under 60 seconds:
-
-| Step | Action |
-|------|--------|
-| **1** | Click **Code** → **Download ZIP** at the top of this repository. |
-| **2** | Extract the ZIP to a dedicated folder on your machine. |
-| **3** | Open your browser (Chrome, Edge, or Brave) and navigate to `chrome://extensions/`. |
-| **4** | Enable **Developer mode** using the toggle in the top-right corner. |
-| **5** | Click **Load unpacked** and select the extracted project folder. |
-
-> 💡 **Pro tip:** Pin the extension icon to your toolbar for instant access to settings and traffic stats.
+| # | Feature (EN) | Возможность (RU) | Description |
+|---|-------------|------------------|-------------|
+| 1 | **Master Toggle** | **Главный выключатель** | Instantly enable/disable the entire extension. / Мгновенное включение или отключение расширения. |
+| 2 | **Site Exceptions** | **Исключения для сайтов** | Disable for specific pages or domains. / Отключение для конкретных страниц или доменов. |
+| 3 | **Traffic Monitor** | **Мониторинг трафика** | Real-time stats: domains, requests, packet loss, data volume, blocked trackers. / Статистика по доменам, запросам, потерям пакетов, объёму данных и трекерам. |
+| 4 | **System Spoofing** | **Подмена системы** | OS profiles (Windows, Linux, macOS) + browser signatures. / Профили ОС и связки с браузерами для маскировки устройства. |
+| 5 | **Fingerprint Protection** | **Защита от фингерпринтинга** | Canvas & Audio noise, adaptive aggression, WebGL spoofing, anti-fraud blockers. / Шум Canvas/Audio, адаптивная агрессия, подмена WebGL, блокировка трекеров. |
+| 6 | **WebRTC Control** | **Управление WebRTC** | IP-leak prevention with per-site whitelist. / Защита от утечки IP с белым списком доменов. |
+| 7 | **Timezone Spoofing** | **Подмена часового пояса** | Spoof timezone to any location, or disable entirely. / Подмена таймзоны под любую локацию или полное отключение. |
+| 8 | **Lightweight** | **Оптимизация** | Zero bloat. Built for speed and stability. / Лёгкая архитектура без нагрузки на браузер. |
 
 ---
 
-## 📁 Project Structure
+## 🚀 Installation / Установка
+
+| Step | Action (EN) | Действие (RU) |
+|------|-------------|---------------|
+| **1** | Click **Code** → **Download ZIP** | Нажмите **Code** → **Download ZIP** |
+| **2** | Extract ZIP to a dedicated folder | Распакуйте архив в отдельную папку |
+| **3** | Open browser → `chrome://extensions/` | Откройте браузер → `chrome://extensions/` |
+| **4** | Enable **Developer mode** (top-right toggle) | Включите **Режим разработчика** (переключатель справа вверху) |
+| **5** | Click **Load unpacked** → select project folder | Нажмите **Загрузить распакованное** → выберите папку проекта |
+
+> 💡 **EN:** Pin the extension icon to your toolbar for instant access.  
+> 💡 **RU:** Закрепите иконку расширения на панели инструментов для быстрого доступа.
+
+---
+
+## 📁 Project Structure / Структура проекта
 
 ```text
 📁 nothing/
-├── 📁 assets/            # UI styles and interface resources
-├── 📁 icons/             # Extension icons
-├── 📄 background.js      # Background service worker
-├── 📄 content-loader.js  # Script injection loader
-├── 📄 inject.js          # Injected content script
-├── 📄 manifest.json      # Extension manifest
-├── 📄 popup.html         # Popup UI markup
-└── 📄 popup.js           # Popup logic and state management
+├── 📁 assets/            # UI styles / Стили интерфейса
+├── 📁 icons/             # Extension icons / Иконки расширения
+├── 📄 background.js      # Background service worker / Фоновый скрипт
+├── 📄 content-loader.js  # Script injection loader / Загрузчик скриптов
+├── 📄 inject.js          # Injected content script / Инжектируемый скрипт
+├── 📄 manifest.json      # Extension manifest / Манифест расширения
+├── 📄 popup.html         # Popup UI markup / Интерфейс меню
+└── 📄 popup.js           # Popup logic / Логика меню
